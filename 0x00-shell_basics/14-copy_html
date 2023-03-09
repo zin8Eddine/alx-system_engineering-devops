@@ -1,3 +1,2 @@
 #!/bin/bash
-cd /tmp
-find . -maxdepth 1 -name '*.html' -type f -printf "%M\t%u\t%g\t%s\t%TF %TT\t%p\n" | sort
+cd /tmp && find . -maxdepth 1 -name '*.html' -type f -printf "%M\t%u\t%g\t%s\t%TF %TT\t%p\n" | sort
